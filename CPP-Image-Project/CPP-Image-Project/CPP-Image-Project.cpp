@@ -1,6 +1,7 @@
+#include "MouseInteraction/MouseInteraction.h"
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    return 0;
 }

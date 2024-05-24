@@ -128,6 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CPP-Image-Project.cpp" />
+    <ClCompile Include="ImageLogic\ImageLogic.cpp" />
+    <ClCompile Include="InteractionLogic\InteractionLogic.cpp" />
+    <ClCompile Include="MouseInteraction\MouseInteraction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageLogic\ImageLogic.h" />
+    <ClInclude Include="InteractionLogic\InteractionLogic.h" />
+    <ClInclude Include="MouseInteraction\MouseInteraction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

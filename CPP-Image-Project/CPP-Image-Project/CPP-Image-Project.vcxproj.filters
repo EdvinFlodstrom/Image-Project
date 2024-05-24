@@ -13,10 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\MouseInteraction">
+      <UniqueIdentifier>{b4836700-cebb-4233-b5f5-32a981a399da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\MouseInteraction">
+      <UniqueIdentifier>{8f510bca-fbe6-42f6-8d9d-0d879ae53dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InteractionLogic">
+      <UniqueIdentifier>{53ca9c06-8514-4d79-a7aa-46a15f27f113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\InteractionLogic">
+      <UniqueIdentifier>{0a19dada-e17b-4ede-9a22-fc3b8b54bf5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImageLogic">
+      <UniqueIdentifier>{210ce006-afc0-4506-a04f-96d82b87de64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ImageLogic">
+      <UniqueIdentifier>{98389b20-d6bf-45de-9362-94c7700fb146}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPP-Image-Project.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MouseInteraction\MouseInteraction.cpp">
+      <Filter>Resource Files\MouseInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionLogic\InteractionLogic.cpp">
+      <Filter>Resource Files\InteractionLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLogic\ImageLogic.cpp">
+      <Filter>Resource Files\ImageLogic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MouseInteraction\MouseInteraction.h">
+      <Filter>Header Files\MouseInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionLogic\InteractionLogic.h">
+      <Filter>Header Files\InteractionLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLogic\ImageLogic.h">
+      <Filter>Header Files\ImageLogic</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
